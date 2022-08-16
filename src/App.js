@@ -2,6 +2,7 @@ import "./App.css";
 import Jumbotron from "./Components/Homepage/Jumbotron";
 import Popular from "./Components/Homepage/Popular";
 import Project from "./Components/Homepage/Project";
+import Testimoni from "./Components/Homepage/Testimoni";
 import Toprated from "./Components/Homepage/Toprated";
 import Tranding from "./Components/Homepage/Tranding";
 import Navbar from "./Components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Tranding />
       <Toprated />
       <Project />
+      <Testimoni />
     </div>
   );
 }
