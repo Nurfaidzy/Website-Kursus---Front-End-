@@ -1,4 +1,5 @@
 import "./App.css";
+import Creator from "./Components/Homepage/Creator";
 import Jumbotron from "./Components/Homepage/Jumbotron";
 import Popular from "./Components/Homepage/Popular";
 import Project from "./Components/Homepage/Project";
@@ -17,6 +18,7 @@ function App() {
       <Toprated />
       <Project />
       <Testimoni />
+      <Creator />
     </div>
   );
 }
