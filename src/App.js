@@ -7,6 +7,7 @@ import Testimoni from "./Components/Homepage/Testimoni";
 import Toprated from "./Components/Homepage/Toprated";
 import Tranding from "./Components/Homepage/Tranding";
 import Learning from "./Components/Homepage/Learning";
+import Menuofuser from "./Components/Homepage/Menuofuser";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Testimoni />
       <Creator />
       <Learning />
+      <Menuofuser />
     </div>
   );
 }
