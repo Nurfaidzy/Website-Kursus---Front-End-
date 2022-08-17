@@ -1,4 +1,9 @@
 import inicreator from "./../Img/fotouser.jpg";
+import {
+  AiFillLinkedin,
+  AiFillFacebook,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 const Creator = () => {
   return (
@@ -19,9 +24,19 @@ const Creator = () => {
             <div>
               <img src={inicreator} alt="" className="w-[400px]" />
               <div>
-                <div>ini facebook</div>
-                <div>ini linkend</div>
-                <div>ini twitter</div>
+                <div className=" bg-black text-white flex justify-center py-5">
+                  <div className="grid grid-cols-3 gap-4 text-2xl">
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillLinkedin className="" />
+                    </div>
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillFacebook />
+                    </div>
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillInstagram />
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className=" flex justify-center">
                 <div className="text-center pt-4">
@@ -32,6 +47,21 @@ const Creator = () => {
             </div>
             <div>
               <img src={inicreator} alt="" className="w-[400px]" />
+              <div>
+                <div className=" bg-black text-white flex justify-center py-5">
+                  <div className="grid grid-cols-3 gap-4 text-2xl">
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillLinkedin className="" />
+                    </div>
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillFacebook />
+                    </div>
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillInstagram />
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className=" flex justify-center">
                 <div className="text-center pt-4">
                   <div className="font-bold text-xl">siapalahini</div>
@@ -41,6 +71,21 @@ const Creator = () => {
             </div>
             <div>
               <img src={inicreator} alt="" className="w-[400px]" />
+              <div>
+                <div className=" bg-black text-white flex justify-center py-5">
+                  <div className="grid grid-cols-3 gap-4 text-2xl">
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillLinkedin className="" />
+                    </div>
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillFacebook />
+                    </div>
+                    <div className="hover:border p-2 rounded-full">
+                      <AiFillInstagram />
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className=" flex justify-center">
                 <div className="text-center pt-4">
                   <div className="font-bold text-xl">siapalahini</div>
