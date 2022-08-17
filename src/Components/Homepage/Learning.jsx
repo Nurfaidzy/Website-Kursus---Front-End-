@@ -2,7 +2,7 @@ import Contoh from "./../Img/contohnylagi.jpg";
 const learning = () => {
   return (
     <>
-      <div className="pt-[5%] px-[10%] bg-[#E7EDF3] text-[#121c2c]">
+      <div className="py-[5%] px-[10%] bg-[#E7EDF3] text-[#121c2c]">
         <div>
           <div className="font-bold text-4xl ">
             Learning <br />
