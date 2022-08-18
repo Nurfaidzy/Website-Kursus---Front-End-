@@ -12,8 +12,8 @@ export default function Jumbotron() {
     <>
       <div className="px-[10%] h-screen text-[#F0F4F8] ">
         <div className="flex justify-between">
-          <div className="2xl:w-[50%] w-[100%] h-full">
-            <div className="font-bold text-[70px] pt-[25%] 2xl:pt-[35%]    ">
+          <div className="2xl:w-[50%] w-[100%] h-full pt-10 md:pt-0">
+            <div className="font-bold text-[60px] md:text-[70px] pt-[25%] 2xl:pt-[35%]    ">
               <h1>Discover a new way</h1>
               <div className="flex gap-5">
                 <h1>of</h1>
@@ -26,7 +26,7 @@ export default function Jumbotron() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div className="pt-[6%] static">
-              <div className="bg-[#F0F4F8] w-full p-4 flex  ">
+              <div className="bg-[#F0F4F8] w-full p-4 flex ">
                 <input
                   type="text"
                   placeholder="Type Here"
@@ -37,7 +37,14 @@ export default function Jumbotron() {
                   }
                   onClick={diganti}
                 />
-                <button className="bg-[#6963f4] py-3 px-10">Search</button>
+                <button className="bg-[#6963f4] py-3 px-10 sm:visible invisible">
+                  Search
+                </button>
+              </div>
+              <div className="pt-4">
+                <button className="bg-[#6963f4] w-full py-6 px-10 md:invisible ">
+                  Search
+                </button>
               </div>
             </div>
           </div>
