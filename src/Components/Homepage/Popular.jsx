@@ -29,25 +29,29 @@ export default function Popular() {
           </div>
         </div>
         <div className="flex justify-center pt-10 ">
-          <div className="grid grid-cols-5 gap-8 ">
+          <div className="grid grid-cols-5 2xl:gap-8 gap-4 2xl:text-lg text-sm">
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
-                  <FcBusiness className="text-4xl bg-slate-200 p-1 rounded-xl" />
-                  <p className="px-2 pt-2">Business</p>
+                  <div className="pt-1 2xl:pt-0">
+                    <FcBusiness className="2xl:text-4xl text-2xl bg-slate-200 p-1 rounded-xl" />
+                  </div>
+                  <p className="px-2 pt-2 ">Business</p>
                 </div>
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
-                  <FcMms className="text-4xl bg-red-200 p-1 rounded-xl" />
+                  <div className="pt-1 2xl:pt-0">
+                    <FcMms className="text-4xl bg-red-200 p-1 rounded-xl" />
+                  </div>
                   <p className="px-2 pt-2">Design </p>
                 </div>
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcKindle className="text-4xl bg-slate-200 p-1 rounded-xl" />
                   <p className="px-2 pt-2">Marketing</p>
@@ -55,7 +59,7 @@ export default function Popular() {
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcLandscape className="text-4xl bg-green-200 p-1 rounded-xl" />
                   <p className="px-2 pt-2">Photography</p>
@@ -63,7 +67,7 @@ export default function Popular() {
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcPortraitMode className="text-4xl bg-indigo-200 p-1 rounded-xl" />
                   <p className="px-2 pt-2"> Animation</p>
@@ -72,7 +76,7 @@ export default function Popular() {
             </div>
             {/* sdsd */}
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcVideoCall className="text-4xl bg-green-200 p-1 rounded-xl" />
                   <p className="px-2 pt-2">Film</p>
@@ -80,7 +84,7 @@ export default function Popular() {
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcSportsMode className="text-4xl bg-orange-200 p-1 rounded-xl" />
                   <p className="px-2 pt-2">Illustration</p>
@@ -88,7 +92,7 @@ export default function Popular() {
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcTimeline className="text-4xl bg-blue-300 p-1 rounded-xl" />
                   <p className="px-2 pt-2">UI/UX</p>
@@ -96,7 +100,7 @@ export default function Popular() {
               </div>
             </div>
             <div className="px-10">
-              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 py-6 rounded-lg ">
+              <div className="bg-[#F0F4F8] shadow-sm hover:shadow-lg  flex justify-center px-10 2xl:py-6 py-4 rounded-lg ">
                 <div className=" text-center flex justify-center font-bold ">
                   <FcViewDetails className="text-4xl bg-blue-200 p-1 rounded-xl" />
                   <p className="px-2 pt-2">Design </p>

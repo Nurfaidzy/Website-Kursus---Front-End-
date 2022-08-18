@@ -12,8 +12,8 @@ export default function Jumbotron() {
     <>
       <div className="px-[10%] h-screen text-[#F0F4F8] ">
         <div className="flex justify-between">
-          <div className="w-[50%] h-full">
-            <div className="font-bold text-[70px] pt-[35%]   ">
+          <div className="2xl:w-[50%] w-[100%] h-full">
+            <div className="font-bold text-[70px] pt-[25%] 2xl:pt-[35%]    ">
               <h1>Discover a new way</h1>
               <div className="flex gap-5">
                 <h1>of</h1>
@@ -45,7 +45,7 @@ export default function Jumbotron() {
             <img
               src={Aktor}
               alt="aktor"
-              className="w-[565px] -ml-[30%] bg-local"
+              className="2xl:w-[565px] w-[580px] 2xl:-ml-[30%] bg-local"
             />
           </div>
         </div>
