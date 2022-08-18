@@ -9,7 +9,7 @@ const learning = () => {
             Support features
           </div>
         </div>
-        <div className="grid grid-cols-3  gap-40 pt-10">
+        <div className="grid md:grid-cols-3 gap-5 md:gap-40 pt-4 md:pt-10">
           <div>
             <img src={Contoh} alt="inicontoh" className="w-[400px]" />
             <div className="pt-2 font-bold">

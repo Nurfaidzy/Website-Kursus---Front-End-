@@ -2,7 +2,7 @@ const Menuofuser = () => {
   return (
     <>
       <div className="bg-white px-[10%] py-[5%] text-center text-[#121c2c]">
-        <div className="grid grid-cols-2 gap-40">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-40">
           <div className="bg-[#fcc5bd] p-10 rounded-lg">
             <div className="font-bold text-4xl">Become an Instructor</div>
             <div className="pt-4">

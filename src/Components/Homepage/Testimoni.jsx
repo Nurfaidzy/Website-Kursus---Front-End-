@@ -6,9 +6,9 @@ const Testimoni = () => {
   return (
     <>
       <div className="bg-[#daf5fc] font-[#051b34] px-[10%] py-[5%] ">
-        <div className="flex justify-between">
+        <div className="md:flex md:justify-between">
           <div className="w-[100%]">
-            <div className="font-bold  text-4xl">
+            <div className="font-bold text-2xl md:text-4xl">
               What our Students <br /> have to say
             </div>
           </div>
@@ -17,7 +17,7 @@ const Testimoni = () => {
               <div className="-ml-[5%] text-slate-300 text-8xl">
                 <AiOutlineMobile />
               </div>
-              <div className="-mt-[10%]">
+              <div className="-mt-[25%] md:-mt-[10%]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 odio consequuntur tempora fuga ad? Optio officia quo facilis
                 debitis, minima, itaque reiciendis autem tempore praesentium
@@ -26,17 +26,24 @@ const Testimoni = () => {
             </div>
           </div>
         </div>
-        <div className="py-[5%] grid grid-cols-3">
+        <div className="py-[5%] grid md:grid-cols-3">
           <div className="p-6">
-            <div>
+            <div className="flex justify-center md:justify-start">
               <img
                 src={Foto}
                 alt=""
                 className="w-[42px] h-[42px] rounded-full"
               />
             </div>
-            <div className="font-bold text-xl pt-2">Chase Kroll</div>
-            <div className="text-sm">Manager creator</div>
+            <div>
+              <div className="font-bold text-xl pt-2 text-center md:text-start">
+                Chase Kroll
+              </div>
+            </div>
+            <div className="text-sm text-center md:text-start">
+              Manager creator
+            </div>
+
             <div className="text-sm pt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               aliquam voluptatibus aliquid voluptate quibusdam doloribus ea quas
@@ -48,15 +55,19 @@ const Testimoni = () => {
             </div>
           </div>
           <div className="p-6">
-            <div>
+            <div className="flex justify-center md:justify-start">
               <img
                 src={Foto}
                 alt=""
                 className="w-[42px] h-[42px] rounded-full"
               />
             </div>
-            <div className="font-bold text-xl pt-2">Chase Kroll</div>
-            <div className="text-sm">Manager creator</div>
+            <div className="font-bold text-xl pt-2 text-center md:text-start">
+              Chase Kroll
+            </div>
+            <div className="text-sm text-center md:text-start">
+              Manager creator
+            </div>
             <div className="text-sm pt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               aliquam voluptatibus aliquid voluptate quibusdam doloribus ea quas
@@ -68,15 +79,19 @@ const Testimoni = () => {
             </div>
           </div>
           <div className="p-6">
-            <div>
+            <div className="flex justify-center md:justify-start">
               <img
                 src={Foto}
                 alt=""
                 className="w-[42px] h-[42px] rounded-full"
               />
             </div>
-            <div className="font-bold text-xl pt-2">Chase Kroll</div>
-            <div className="text-sm">Manager creator</div>
+            <div className="font-bold text-xl pt-2 text-center md:text-start">
+              Chase Kroll
+            </div>
+            <div className="text-sm text-center md:text-start">
+              Manager creator
+            </div>
             <div className="text-sm pt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               aliquam voluptatibus aliquid voluptate quibusdam doloribus ea quas
