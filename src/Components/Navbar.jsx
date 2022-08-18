@@ -1,9 +1,16 @@
 import React from "react";
 
+import { AiFillAppstore } from "react-icons/ai";
+
 export default function Navbar() {
+  const [Navbar, setNavbar] = React.useState(false);
+
+  const tap = () => {
+    setNavbar(!Navbar);
+  };
   return (
     <>
-      <div className="absolute">
+      <div className="sm:visible invisible ">
         <div className="fixed w-full ">
           <div className=" bg-[#051b34] flex justify-between px-[10%] py-[1%] text-[#F0F4F8] ">
             <div className="font-bold text-[34px]">
@@ -27,6 +34,39 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="sm:invisible visible  ">
+        <div className="fixed w-full ">
+          <div className=" bg-[#051b34] hover:border-b-2 flex justify-between px-[10%] py-[1%] text-[#F0F4F8] ">
+            <div className="font-bold text-[34px]">
+              <h1>E-Learning</h1>
+            </div>
+            <div className="pt-2">
+              <AiFillAppstore
+                className="text-[#F0F4F8] text-4xl "
+                onClick={tap}
+              />
+            </div>
+          </div>
+          {Navbar ? (
+            <div className="bg-[#051b34]  h-screen">
+              <div className="flex justify-center text-[#F0F4F8] text-center">
+                <ol className="text-4xl pt-4">
+                  <li className="p-4 border-b-2">Home</li>
+                  <li className="p-4 border-b-2">Course</li>
+                  <li className="p-4 border-b-2">Trainer Profile</li>
+                  <li className="p-4 border-b-2">About Us</li>
+                  <li className="p-4 border-b-2">Blog</li>
+                </ol>
+              </div>
+              <div>
+                <div className="text-white text-center text-sm pt-[50%]">
+                  on Created by nurf
+                </div>
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </>
