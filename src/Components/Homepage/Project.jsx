@@ -5,19 +5,25 @@ const Project = () => {
         <div className="flex justify-center p-6 w-[33%]">
           <div className="">
             <div className="text-4xl font-bold">3900+</div>
-            <div className="font-bold pt-4 ">Course & Aprecializations</div>
+            <div className="font-bold pt-4 text-sm md:text-xl">
+              Course & Aprecializations
+            </div>
           </div>
         </div>
         <div className="flex justify-center p-6 w-[33%]">
           <div className="">
             <div className="text-4xl font-bold">15+</div>
-            <div className="font-bold pt-4 ">Professional Certification</div>
+            <div className="font-bold pt-4 text-sm md:text-xl">
+              Professional Certification
+            </div>
           </div>
         </div>
         <div className="flex justify-center p-6 w-[33%]">
           <div className="">
             <div className="text-4xl font-bold">15+</div>
-            <div className="font-bold pt-4 ">Degress & Master Track</div>
+            <div className="font-bold pt-4 text-sm md:text-xl">
+              Degress & Master Track
+            </div>
           </div>
         </div>
       </div>
