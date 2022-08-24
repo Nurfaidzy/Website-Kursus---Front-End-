@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Website-Kursus---Front-End-/static/css/main.5745f7f2.css",
+    "main.js": "/Website-Kursus---Front-End-/static/js/main.afd7b934.js",
+    "static/js/787.159ee502.chunk.js": "/Website-Kursus---Front-End-/static/js/787.159ee502.chunk.js",
+    "static/media/contohnylagi.jpg": "/Website-Kursus---Front-End-/static/media/contohnylagi.4b1dc0774098ed23d61c.jpg",
+    "static/media/coursecontoh.jpg": "/Website-Kursus---Front-End-/static/media/coursecontoh.f3c3d8f11a2c29dbe04c.jpg",
+    "static/media/meganglaptop.png": "/Website-Kursus---Front-End-/static/media/meganglaptop.75313cceed70b7d1d2ab.png",
+    "static/media/fotouser.jpg": "/Website-Kursus---Front-End-/static/media/fotouser.1e4b643a02e538230068.jpg",
+    "index.html": "/Website-Kursus---Front-End-/index.html",
+    "main.5745f7f2.css.map": "/Website-Kursus---Front-End-/static/css/main.5745f7f2.css.map",
+    "main.afd7b934.js.map": "/Website-Kursus---Front-End-/static/js/main.afd7b934.js.map",
+    "787.159ee502.chunk.js.map": "/Website-Kursus---Front-End-/static/js/787.159ee502.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5745f7f2.css",
+    "static/js/main.afd7b934.js"
+  ]
+}
